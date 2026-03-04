@@ -38,23 +38,23 @@ I used Playwright because Zocdoc is a JavaScript-rendered website, so a simple r
 
 zocdoc_scraper/
 
-    scraper.py
-    requirements.txt
-    README.md
-    zocdoc_doctors.csv  (generated after execution)
+   - scraper.py
+   - requirements.txt
+   - README.md
+   - zocdoc_doctors.csv  (generated after execution)
 
 
 # Installation
 
-1. Create a Virtual Environment
+1. Created a Virtual Environment
 py -m venv server
 server\Scripts\activate
 
-2. Install Dependencies
+2. Installed Dependencies
 pip install -r requirements.txt
 
 
-3. Install Playwright Browsers
+3. Installed Playwright Browsers
 playwright install
 
 
@@ -96,7 +96,7 @@ pic_url | Name | Profile URL | Specialty | Rating | Review Count
 
 
 
-# Note on Anti-Bot Protection
+# Note on Anti-Bot Protection 
 
 Zocdoc implements strong anti-bot and IP-based rate limiting mechanisms.
 
